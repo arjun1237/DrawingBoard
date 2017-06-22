@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Command()
+comment0.text=\r\n\ Store\ Command\ words\ to\ be\ made\ available.\r\n
+comment1.params=
+comment1.target=void\ addCommands()
+comment1.text=\r\n\ Adds\ all\ the\ commands\ the\ program\ needs\ to\ a\ HashMap\ in\ 2\ sets\ of\ String\ and\ connect\ it\ to\ another\ string\ of\ program\ recognized\ commands.\r\n
+comment2.params=
+comment2.target=void\ commandValueList()
+comment2.text=\r\n\ Adds\ the\ command\ values\ to\ separate\ HashSet.\r\n
+comment3.params=
+comment3.target=void\ yesNoCommands()
+comment3.text=\r\n\ Adds\ the\ yes\ and\ no\ commands\r\n
+comment4.params=order
+comment4.target=java.lang.String\ checkCommand1(java.lang.String)
+comment4.text=\r\n\ Checks\ whether\ the\ user\ command\ matches\ one\ of\ the\ commands\ recognized\ by\ the\ program.\r\n\ \r\n\ @param\ order\ The\ string\ that\ accepts\ the\ user\ command\ input.\r\n\ @return\ Program\ recognized\ commands\ if\ it\ matches\ with\ user\ command\ or\ empty\ string.\r\n
+comment5.params=order
+comment5.target=java.lang.String\ checkCommand2(java.lang.String)
+comment5.text=\r\n\ Checks\ whether\ the\ user\ command\ matches\ either\ yes\ or\ no\ commands.\r\n\ \r\n\ @param\ order\ The\ string\ that\ accepts\ the\ user\ command\ input.\r\n\ @return\ returns\ yes\ or\ no\ if\ it\ matches,\ else\ it\ retunrs\ null\ if\ null,\ else\ it\ returns\ error.\r\n
+comment6.params=
+comment6.target=void\ help()
+comment6.text=\r\n\ Print\ all\ the\ Commands\ available\ when\ called.\r\n
+numComments=7

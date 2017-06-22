@@ -1,0 +1,555 @@
+*******************************************************************
+*******************************************************************
+* WELCOME TO CREATICONS          *       **************************
+* ---------------------         * *        ************************
+* bringing life into art   * * * * * * *     **********************
+*     for centuries           *     *       ***********************
+*                            *   *   *       **********************
+*      estd. 1900           *         *       *********************
+*******************************************************************
+*******************************************************************
+
+    for help -> type HELP
+    to exit  -> type BYE
+    to start -> type PEN (name) -> give any one word name
+    * HAPPY * DRAWING *
+
+> help
+
+  Command Words:
+----------------------------------------------------
+  HELP  HI  DOWN  MOVETO  DETAIL
+  DELETED  DESELECT  SELECT  CURRENT  BYE
+  POSITION  DELETE  TURNTO  MOVE  COLOR
+  RECOVER  PEN  TURN  UP  PENS
+
+
+> hi
+Hi...! Now get back to drawing.
+
+> 
+Dont PLAY with your keyborad.
+
+> 
+Dont PLAY with your keyborad.
+
+> move
+FYI: Currently none of the pens are in use.
+
+> moveto 50 50
+FYI: Currently none of the pens are in use.
+
+> turn 45
+FYI: Currently none of the pens are in use.
+
+> turnto 67
+FYI: Currently none of the pens are in use.
+
+> up
+FYI: Currently none of the pens are in use.
+
+> down
+FYI: Currently none of the pens are in use.
+
+> pens
+Available Pen list contains no pen currently.
+
+> deleted
+Deleted Pen list contains no pen currently.
+
+> deselect
+Currently no pen tool is in use to deselect.
+
+> pen
+Please rewrite the command along with new Pen name.
+
+> delete ace
+The pen with the name "ace" does not exist.
+
+> recover ace
+Deleted list does not contain pen with the name: "ace".
+
+> delete
+Delete which pen?
+
+> recover
+Recover what?
+
+> detail
+Please rewrite the command along with the existing Pen name to get details.
+
+> select
+Select which pen?
+
+> select ace
+The pen with the name "ace" does not exist.
+
+> pen ace
+
+A new pen named "ace" has been added.
+   DETAILS:
+Pen Name:           ACE
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+Color:              BLACK
+The pen has been automatically selected for you.
+
+> pen sam
+
+A new pen named "sam" has been added.
+   DETAILS:
+Pen Name:           SAM
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+Color:              BLACK
+The pen has been automatically selected for you.
+
+> pens
+AVAILABLE Pens:   ace   sam
+
+> deleted
+Deleted Pen list contains no pen currently.
+
+> current
+   DETAILS:
+Pen Name:           SAM
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+
+> detail ace
+   DETAILS:
+Pen Name:           ACE
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+
+> select ace
+
+Your current Pen has been changed
+   DETAILS:
+Pen Name:           ACE
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+
+> move 200 200
+To execute the move command, the word size in the command line needs to be exactly 2 words or numbers as per the command
+
+> moveto 20
+Please enter the command again with Y axis value
+
+> moveto 200 200
+Pen Position:       200 (X axis), 200 (Y axis).
+
+> down
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> color
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color red
+The color of your pen has been changed to: RED.
+
+> move
+How much to move?
+
+> 40
+Can't-Recognize-Command-Exception: "40"
+
+> move 40
+Pen Position:       240 (X axis), 200 (Y axis).
+
+> turn 90
+Pen angle:          90 degrees from right.
+
+> color yellow
+The color of your pen has been changed to: YELLOW.
+
+> move 40
+Pen Position:       240 (X axis), 240 (Y axis).
+
+> turnto
+Turn to what angle?
+
+> turnto 360
+Pen angle:          0 degrees from right.
+
+> color
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color cyan
+The color of your pen has been changed to: CYAN.
+
+> move 50
+Pen Position:       290 (X axis), 240 (Y axis).
+
+> turn -90
+Pen angle:          270 degrees from right.
+
+> turn
+How much to turn?
+
+> color
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color 150 100 150
+The color of your pen has been changed to: [R=150,G=100,B=150].
+
+> move 50
+Pen Position:       290 (X axis), 190 (Y axis).
+
+> turn
+How much to turn?
+
+> turn -90
+Pen angle:          180 degrees from right.
+
+> color 45 re 45
+Seems like either none or some of the RGB values are not Integer type. Please retype.
+
+> color 255 200 200
+The color of your pen has been changed to: [R=255,G=200,B=200].
+
+> move 100
+Pen Position:       190 (X axis), 190 (Y axis).
+
+> turnto135
+Can't-Recognize-Command-Exception: "turnto135"
+
+> turnto 135
+Pen angle:          135 degrees from right.
+
+> color 256 250 125
+Either none or some of the RGB color values seems to be out of 0-255 range. Please retype
+
+> color -1 45 67
+Either none or some of the RGB color values seems to be out of 0-255 range. Please retype
+
+> color 200 0 150
+The color of your pen has been changed to: [R=200,G=0,B=150].
+
+> move 50
+Pen Position:       155 (X axis), 225 (Y axis).
+
+> turn -90
+Pen angle:          45 degrees from right.
+
+> move 20
+Pen Position:       169 (X axis), 239 (Y axis).
+
+> turn -90
+Pen angle:          -45 degrees from right.
+
+> color 
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color pink
+The color of your pen has been changed to: PINK.
+
+> moveto 200 200
+Pen Position:       200 (X axis), 200 (Y axis).
+
+> pens
+AVAILABLE Pens:   ace   sam
+
+> deleted
+Deleted Pen list contains no pen currently.
+
+> delete 
+Delete which pen?
+
+> delete ace
+The Pen "ace" has been deleted.
+The deleted pen was in select mode. To continue drawing, select another pen or get a new one.
+
+> deleted
+DELETED Pens:   ace
+
+> pena
+Can't-Recognize-Command-Exception: "pena"
+
+> pens
+AVAILABLE Pens:   sam
+
+> select sam
+
+Your current Pen has been changed
+   DETAILS:
+Pen Name:           SAM
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+
+> move 50 50
+To execute the move command, the word size in the command line needs to be exactly 2 words or numbers as per the command
+
+> moveto 50 50
+Pen Position:       50 (X axis), 50 (Y axis).
+
+> down
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> current
+   DETAILS:
+Pen Name:           SAM
+Pen Position:       50 (X axis), 50 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> move 80
+Pen Position:       130 (X axis), 50 (Y axis).
+
+> turn 45
+Pen angle:          45 degrees from right.
+
+> move 70
+Pen Position:       179 (X axis), 99 (Y axis).
+
+> color
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color 233 100 0
+The color of your pen has been changed to: [R=233,G=100,B=0].
+
+> turn 90
+Pen angle:          135 degrees from right.
+
+> move 30
+Pen Position:       158 (X axis), 120 (Y axis).
+
+> turn 100
+Pen angle:          235 degrees from right.
+
+> color 234 543 345
+Either none or some of the RGB color values seems to be out of 0-255 range. Please retype
+
+> color 234 123 3
+The color of your pen has been changed to: [R=234,G=123,B=3].
+
+> move 50
+Pen Position:       129 (X axis), 79 (Y axis).
+
+> move 30
+Pen Position:       112 (X axis), 54 (Y axis).
+
+> turn -90
+Pen angle:          145 degrees from right.
+
+> move 50
+Pen Position:       71 (X axis), 83 (Y axis).
+
+> color 45 55 200
+The color of your pen has been changed to: [R=45,G=55,B=200].
+
+> turn 90
+Pen angle:          235 degrees from right.
+
+> move 40
+Pen Position:       48 (X axis), 50 (Y axis).
+
+> position
+Pen Position:       48 (X axis), 50 (Y axis).
+
+> moveto 50 50
+Pen Position:       50 (X axis), 50 (Y axis).
+
+> recover ace
+The deleted Pen tool "ace" has been recovered. To use it, select.
+
+> delete sam
+The Pen "sam" has been deleted.
+The deleted pen was in select mode. To continue drawing, select another pen or get a new one.
+
+> select ace
+
+Your current Pen has been changed
+   DETAILS:
+Pen Name:           ACE
+Pen Position:       200 (X axis), 200 (Y axis).
+Pen angle:          -45 degrees from right.
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> turn to 270
+To execute the turn command, the word size in the command line needs to be exactly 2 words or numbers as per the command
+
+> turnto 270
+Pen angle:          270 degrees from right.
+
+> color 
+
+   Colors available:
+----------------------------------------------------
+   RED   ORANGE   MAGENTA   PINK   GREEN
+   GRAY   BLUE   YELLOW   BLACK   CYAN
+
+Please rewrite the command by including any of the above color.
+Alternatively, you can set any color by just typing Color followed by RGB values.
+
+> color gray
+The color of your pen has been changed to: GRAY.
+
+> move 100
+Pen Position:       200 (X axis), 100 (Y axis).
+
+> up
+Pen UP/DOWN?:       UP
+
+> turn 90
+Pen angle:          0 degrees from right.
+
+> move 10
+Pen Position:       210 (X axis), 100 (Y axis).
+
+> down
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> move 30
+Pen Position:       240 (X axis), 100 (Y axis).
+
+> pen sam
+
+A pen with the name "sam" was in "deleted" list. Do you want to overwrite it?
+> dfsdf
+
+I dont think you understood the question.
+A pen with the name "sam" was in "deleted" list. Do you want to overwrite it?
+> 34
+
+I dont think you understood the question.
+A pen with the name "sam" was in "deleted" list. Do you want to overwrite it?
+> 
+Dont PLAY with your keyborad.
+
+> sd
+
+I dont think you understood the question.
+A pen with the name "sam" was in "deleted" list. Do you want to overwrite it?
+> no
+Pen tool "sam" was NOT created.
+
+> pen sam
+
+A pen with the name "sam" was in "deleted" list. Do you want to overwrite it?
+> yes
+
+A new pen named "sam" has been added.
+   DETAILS:
+Pen Name:           SAM
+Pen Position:       0 (X axis), 0 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       UP
+Color:              BLACK
+The pen has been automatically selected for you.
+
+> down
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> moveto 150 150
+Pen Position:       150 (X axis), 150 (Y axis).
+
+> turn 135
+Pen angle:          135 degrees from right.
+
+> move 50
+Pen Position:       115 (X axis), 185 (Y axis).
+
+> select ace
+
+Your current Pen has been changed
+   DETAILS:
+Pen Name:           ACE
+Pen Position:       240 (X axis), 100 (Y axis).
+Pen angle:          0 degrees from right.
+Pen UP/DOWN?:       DOWN Feel free to draw.
+
+> move 30
+Pen Position:       270 (X axis), 100 (Y axis).
+
+> turn 50
+Pen angle:          50 degrees from right.
+
+> move 50
+Pen Position:       302 (X axis), 138 (Y axis).
+
+> dselect
+Can't-Recognize-Command-Exception: "dselect"
+
+> deselect
+Your pen "ace" has been deselected.
+Create a new Pen tool or select any existing pen tool to continue drawing.
+
+> move 59
+FYI: Currently none of the pens are in use.
+
+> current
+FYI: Currently none of the pens are in use.
+
+> pens
+AVAILABLE Pens:   ace   sam
+
+> delete same
+The pen with the name "same" does not exist.
+
+> deleted
+Deleted Pen list contains no pen currently.
+
+> deleted sam
+To execute the deleted command, the word size in the command line needs to be exactly 1 words or numbers as per the command
+
+> deleted
+Deleted Pen list contains no pen currently.
+
+> delete sam
+The Pen "sam" has been deleted.
+
+> deleted
+DELETED Pens:   sam
+
+> pens
+AVAILABLE Pens:   ace
+
+> hi
+Hi...! Now get back to drawing.
+
+> bye
+It was fun drawing with you.
+   Bye. See you later.
+

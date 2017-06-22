@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DrawMain()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ method\ that\ starts\ the\ entire\ project.\ \r\n\ Basically\ the\ "Power\ On"\ button\ of\ the\ Drawing\ remote\ control.\r\n
+numComments=2

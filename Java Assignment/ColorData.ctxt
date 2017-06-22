@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ColorData()
+comment0.text=\r\n\ Adds\ all\ the\ colors\ the\ program\ needs\ in\ 2\ sets\ of\ String\ and\ Color\ itself\ in\ a\ HashMap.\r\n
+comment1.params=
+comment1.target=void\ addColors()
+comment1.text=\r\n\ Adds\ all\ the\ colors\ the\ program\ needs\ in\ 2\ sets\ linking\ String\ of\ colors\ to\ Color\ itself\ in\ a\ HashMap.\r\n
+comment2.params=color
+comment2.target=java.awt.Color\ checkColor(java.lang.String)
+comment2.text=\r\n\ Checks\ whether\ the\ color\ asked\ by\ the\ user\ is\ available\ and\ returns\ it.\r\n\ \r\n\ @param\ color\ Color\ input\ from\ the\ user.\r\n\ @return\ The\ selected\ color\ if\ available,\ else\ null\r\n
+comment3.params=
+comment3.target=void\ printColors()
+comment3.text=\r\n\ Print\ the\ list\ of\ colors\ available.\r\n
+comment4.params=color
+comment4.target=java.lang.String\ colorToString(java.awt.Color)
+comment4.text=\r\n\ Print\ the\ list\ of\ colors\ available.\r\n\ \r\n\ @param\ color\ the\ color\ value\r\n\ @return\ The\ selected\ color\ to\ equivalent\ string\ values\r\n
+numComments=5
